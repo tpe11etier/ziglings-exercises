@@ -7,7 +7,7 @@
 //
 // A function is made public with the "pub" statement like so:
 //
-//     pub fn foo() void {
+//     pub fn foo() void {$
 //         ...
 //     }
 //
@@ -16,6 +16,6 @@
 //
 const std = @import("std");
 
-fn main() void {
+pub fn main() void {
     std.debug.print("Hello world!\n", .{});
 }
